@@ -4,7 +4,7 @@ char *secret = "letmein";
 
 void super_secret_func(void);
 int authorize(void);
-int llg(int i, int a, int c, int m, long long seed);
+long long llg(int i, int a, int c, int m, long long seed);
 
 int main(void){
 
@@ -41,7 +41,7 @@ int authorize(void)
 }
 
 
-int llg(int i, int a, int c, int m, long long seed);
+long long llg(int i, int a, int c, int m, long long seed);
 {
     long long x = seed;
     
